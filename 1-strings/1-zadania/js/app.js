@@ -12,7 +12,7 @@
 {
     const name = prompt("Podaj swoje imię");
     if (name) {
-        const fix = name[0].toUpperCase() + name[0].substr(1);
+        const fix = name[0].toUpperCase() + name.substr(1);
         console.log(`Witaj ${fix}!`);
 
         //lub
