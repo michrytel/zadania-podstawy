@@ -39,7 +39,7 @@ for (i=1; i<6; i++){
 
 console.log("zad6")
 let chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
-let stringLength = 20;
+let stringLength = 50;
 let result="";
 for(let i=0; i < stringLength; i++ )
     result += chars[Math.floor(Math.random() * (chars.length - 1)) + 1];
