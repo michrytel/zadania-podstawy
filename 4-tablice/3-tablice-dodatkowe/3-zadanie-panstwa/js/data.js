@@ -3030,3 +3030,97 @@ const countries = [
         world_area_in_percent: 0.00
     }
 ]
+
+
+
+
+console.log("zad2")
+/*
+let worldpop = 0;
+for (let element of countries) {
+    worldpop = worldpop + element.population
+}
+let middle = worldpop / countries.length
+
+console.log("średnia populacja ludzi na swiecie to: " + middle + " cala populacja ludzi wynosi zas: " + worldpop)
+
+*/
+
+console.log("zad3 i 4")
+/*dodatni = 0
+ujemny = 0
+for (let element of countries) {
+    if (element.grow >= 0) {
+        dodatni++
+    }else {
+        ujemny++
+    }
+}
+console.log("there are " + dodatni + " countries with + grow and " + ujemny + " with - grow")*/
+console.log("zad5")
+/*worldarea = 0
+for (let element of countries) {
+    worldarea = worldarea + element.world_area_in_percent
+
+}
+console.log(worldarea)*/
+console.log("zad6")
+/*fertility = 0
+kraje = 0
+for (let element of countries) {
+    if (element.fertility_rate != null) {
+        fertility = fertility + element.fertility_rate
+        kraje++
+    }
+}
+
+medium_fertility_rate = fertility / kraje
+console.log(medium_fertility_rate)*/
+console.log("zad7")
+/*age = 0
+kraje = 0
+for (let element of countries) {
+    if (element.medium_age != null) {
+       age = age + element.medium_age
+        kraje++
+    }
+}
+let mediumage = age / kraje
+console.log(mediumage)*/
+
+console.log("zad8")
+/*for (let element of countries) {
+    if (element.name == "Poland") {
+     console.log(element)
+    }
+}*/
+console.log("zad9")
+/*
+age = 0
+kraje = 0
+for (let element of countries) {
+    if (element.medium_age != null) {
+       age = age + element.medium_age
+        kraje++
+    }
+}
+let mediumage = age / kraje
+console.log(mediumage)
+for (let element of countries) {
+    if (element.name == "Poland") {
+        if (element.medium_age > mediumage) {
+            console.log("srednia wieku w tym kraju jest wieksza niz na swiecie")
+        } else {
+            console.log("srednia wieku w tym kraju jest nizsza niz na swiecie")
+        }
+    }
+}
+
+
+
+*/
+
+
+
+
+

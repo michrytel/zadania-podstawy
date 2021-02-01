@@ -7,7 +7,12 @@ const tab = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,3,3,3,3,3,0,0,0,0,0],[0,0,0,
 //START
 //-----------------------------------------
 let text = '';
-
+for(var i = 0; i < tab.length; i++) {
+    for(var j = 0; j < tab[i].length; j++) {
+        console.log(tab[i][j]);
+        text += '<div style="background:' + colors[i] + '"></div>'
+    }
+}
 
 
 //tutaj wstawiamy do div wygenerowany html - nie ruszaj poniższej linijki

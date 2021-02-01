@@ -1,26 +1,26 @@
-const users = [ {
-        "index": 0,
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "age": 23,
-        "eyeColor": "blue",
-        "name": "Claire Lucas",
-        "gender": "female",
-        "email": "clairelucas@memora.com",
-        "phone": "+1 (858) 411-2512",
-        "address": "829 Seton Place, Epworth, Tennessee, 4859",
-        "about": "Id commodo tempor sint officia fugiat. Aliquip sit laborum officia ea non ad sunt dolor. Excepteur commodo ipsum sit voluptate deserunt et anim Lorem nisi. Tempor irure eiusmod exercitation commodo duis deserunt in ullamco officia anim. Ex culpa exercitation et deserunt cillum mollit fugiat.\r\n",
-        "tags": [
-            "est",
-            "labore",
-            "adipisicing",
-            "eiusmod",
-            "ea",
-            "consectetur",
-            "aute"
-        ],
-        "favoriteFruit": "apple"
-    },
+const users = [{
+    "index": 0,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Claire Lucas",
+    "gender": "female",
+    "email": "clairelucas@memora.com",
+    "phone": "+1 (858) 411-2512",
+    "address": "829 Seton Place, Epworth, Tennessee, 4859",
+    "about": "Id commodo tempor sint officia fugiat. Aliquip sit laborum officia ea non ad sunt dolor. Excepteur commodo ipsum sit voluptate deserunt et anim Lorem nisi. Tempor irure eiusmod exercitation commodo duis deserunt in ullamco officia anim. Ex culpa exercitation et deserunt cillum mollit fugiat.\r\n",
+    "tags": [
+        "est",
+        "labore",
+        "adipisicing",
+        "eiusmod",
+        "ea",
+        "consectetur",
+        "aute"
+    ],
+    "favoriteFruit": "apple"
+},
     {
         "index": 1,
         "isActive": true,
@@ -896,3 +896,7 @@ const users = [ {
         "favoriteFruit": "strawberry"
     }
 ];
+
+export default users
+
+
