@@ -1,5 +1,4 @@
 console.log("zad1")
-/*
 let chars = "abcdefghijklmnoprstuvwzx";
 let tab = [];
 while (tab.length <5) {
@@ -17,7 +16,6 @@ for (let element of tab) {
     console.log(element)
     console.log(element.length)
 }
-*/
 
 
 console.log("zad2")
